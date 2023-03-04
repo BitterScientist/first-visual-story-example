@@ -4,7 +4,7 @@ const entrypoints = [
 ];
 
 export default {
-  domain: 'https://github.com/BitterScientist/trinidadcisneros.github.io',
+  domain: 'https://github.com/BitterScientist/',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,
