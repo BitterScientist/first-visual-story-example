@@ -4,7 +4,8 @@ const entrypoints = [
 ];
 
 export default {
-  domain: 'https://github.com/BitterScientist/',
+  output: 'docs',
+  domain: 'https://bitterscientist.github.io',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,
